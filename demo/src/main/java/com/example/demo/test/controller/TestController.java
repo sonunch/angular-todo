@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class TestController{
     @RequestMapping(value = "/home") 
     public String home(){ 
-        return "test"; 
+        return "index.html"; 
     }
     @RequestMapping("/test") 
     public ModelAndView test() throws Exception{ 
