@@ -21,6 +21,7 @@ public class TestController{
         testList.add("choi"); 
         testList.add("seong"); 
         testList.add("yun"); 
+        testList.add("test aaa");
         mav.addObject("list", testList); 
         return mav; 
     }
